@@ -1,0 +1,104 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#whole{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: repeat(15% 70% 15%);
+}
+
+.logo{
+    padding:10px;
+    margin:10px;
+}
+
+.logo img{
+    width:100px;
+    height:33px;
+}
+.user-icon{
+    width:100px;
+}
+.user-icon img{
+    width:40px;
+    height:40px;
+}
+.ad{
+    width: 16%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width:68%;
+    background-color: #ffffff;
+    overflow-y: auto; 
+    padding: 20px;
+    text-align: center;    
+}
+
+.navbar {
+    background-color: #008767;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+
+.nav-links li a:hover {
+    opacity: 0.8;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.premium-btn {
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.user-icon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    opacity: 0.9;
+}
